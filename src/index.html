@@ -2,10 +2,37 @@
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <title>Template</title>
+  <title>Simon Says!</title>
 </head>
 <body>
-  <h1>Template</h1>
+  <h1>Simon says!</h1>
+  <p>Play Simon Says, the world's greatest memory game!</p>
+  <div id="startScreen">
+      <button type="button" id="startButton">Start Game</button><br>
+  </div>
+  
+  <div id="gameScreen">
+    <h2>Click the buttons in the order seen.</h2>
+    <div id="gameOutput">
+      
+    </div>
+    <h3>Your colors:</h3>
+    <div id="playerOutput">
+      
+    </div>
+    <button id="blueButton" value="blue">Blue</button>
+    <button id="redButton" value="red">Red</button>
+    <button id="yellowButton" value="yellow">Yellow</button>
+    <button id="greenButton" value="green">Green</button>
+    <br>
+    <button id="submitButton">Submit</button>
+  </div>
+
+  <div id="gameOverScreen">
+    <h2>Game Over!</h2>
+    <button id="playAgain">Play Again?</button>
+  </div>
+
 
 </body>
 </html>
